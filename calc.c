@@ -16,7 +16,11 @@ int main()
 		result = n1+n2;
 	}else if(comando == '-'){
 		result = n1-n2;	
+	}else{
+		printf("Faz algo, cão.");
 	}
+
+
 
 
 
