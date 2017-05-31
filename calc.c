@@ -11,7 +11,10 @@ int main()
 	printf("Digite os dois números da operação.\n");
 	scanf("%d %d", &n1, &n2);
 
-
+	if (comando == '+')
+	{
+		result = n1+n2;
+	}
 
 
 
